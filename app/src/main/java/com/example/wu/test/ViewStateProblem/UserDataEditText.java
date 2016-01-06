@@ -52,7 +52,7 @@ public class UserDataEditText extends LinearLayout {
         return phone.getText().toString();
     }
 
-    public void setPhone(String address) {
-        this.phone.setText(address);
+    public void setPhone(String phone) {
+        this.phone.setText(phone);
     }
 }
